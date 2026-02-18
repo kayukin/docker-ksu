@@ -1,13 +1,13 @@
-# KernelSU Module Template
+# Docker KernelSU Module
 
-**A Template Module for KernelSU**
+**Docker Module for KernelSU**
 
 ## Install
-- Download **[latest release](https://github.com/SchweGELBin/KernelSU-Module-Template/releases/latest/download/KSU-Template.zip)**
+- Download **[latest release](https://github.com/kayukin/docker-ksu/releases/latest/download/Docker-KSU.zip)**
 - Flash via KernelSU Manager
 
 ## Changelog
-- **[Changelog](https://github.com/SchweGELBin/KernelSU-Module-Template/blob/master/CHANGELOG.md)**
+- **[Changelog](https://github.com/kayukin/docker-ksu/blob/master/CHANGELOG.md)**
 
 ## Build
 - Fork this repository

@@ -17,7 +17,7 @@ jobs:
             prop_path: 'version'
       - name: Archive
         run:  |
-          sudo zip -r KSU-Template.zip *  
+          sudo zip -r Docker-KSU.zip *  
       - name: Release
         uses: meeDamian/github-release@master
         with:
@@ -25,11 +25,11 @@ jobs:
           tag: ${{steps.version.outputs.prop}}
           name: ${{steps.version.outputs.prop}}
           body: Please check [changelog](https://github.com/${{ github.repository }}/blob/${{ github.ref_name }}/CHANGELOG.md) for changes
-          files: KSU-Template.zip
+          files: Docker-KSU.zip
           gzip: false
           draft: false
           prerelease: false
           allow_override: true
       - name: Cleanup
         run:  |
-          rm KSU-Template.zip
+          rm Docker-KSU.zip
